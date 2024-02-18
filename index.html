@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <!-- <body> header section start -->
     <header>
       <div class="flex justify-between mt-12 container mx-auto">
         <h3 class="text-4xl font-extrabold text-[#030712]">P-Ticket</h3>
@@ -18,7 +18,9 @@
         </div>
       </div>
     </header>
+    <!-- <body> header section end -->
     <main>
+      <!-- hero section start -->
       <div class="container mx-auto mt-12">
         <div class="hero min-h-screen rounded-3xl" style="background-image: url(./images/banner.png)">
           <div class=""></div>
@@ -32,14 +34,17 @@
               </p>
               <button 
                 
-                class="btn btn-primary text-xl font-bold text-[#030712] bg-[#1DD100] border-none hover:bg-[#1DD100]"
+               class="btn btn-primary text-xl font-bold text-[#030712] bg-[#1DD100] border-none hover:bg-[#1DD100]"
               >
-                Buy Tickets
+                <a href="">Buy Tickets</a>
               </button>
             </div>
           </div>
         </div>
       </div>
+      <!-- hero section end -->
+
+      <!-- best offer section start -->
       <section class="container mx-auto mt-12">
         <h3 class="flex justify-center text-4xl font-bold text-[#030712]">Best offers for you</h3>
         <div class="flex justify-between">
@@ -76,7 +81,10 @@
           </button>
         </div>
       </section>
-      <section id="poribohon" class="bg-[#F7F8F8] container mx-auto mt-24 rounded-tl-3xl rounded-tr-3xl">
+      <!-- best offer section end -->
+
+      <!-- poribohon section start-->
+      <section class="bg-[#F7F8F8] container mx-auto mt-24 rounded-tl-3xl rounded-tr-3xl">
         <h3 class="flex justify-center text-4xl font-bold text-[#030712] pt-12">P.H Paribahan</h3>
         <p class="text-center mt-12">
           Yes, you can run unit tests and view the results directly within the app. The integrated <br />
@@ -131,50 +139,57 @@
           </div>
         </div>
       </section>
+      <!-- poribohon section end-->
 
+      <!-- tikit section start -->
       <section class="container mx-auto mt-12">
         <div class="flex">
-            <div class="w-[60%]"><h3>Select Your Seat</h3>
+            <div class="w-[60%] "><h3 class="text-2xl font-semibold">Select Your Seat</h3>
 
                 <div class="flex justify-between mt-12">
                     <div class="flex  space-x-3">
                         <img src="./images/seat-gray.png" alt="">
-                        <p>Avaliable</p>
+                        <p class="text-xl">Avaliable</p>
                     </div>
                     <div class="flex space-x-3">
                         <img src="./images/seat-green.png" alt="">
-                        <p>Selected</p>
+                        <p class="text-xl">Selected</p>
                     </div>
                 </div>
             </div>
-            <div class="w-[40%]"><h3>Select Your Seat</h3>
-
+            <div class="w-[40%]"><h3 class=" text-2xl font-semibold">Select Your Seat</h3>
+              <div class="flex justify-between items-center px-5 mt-5  bg-[#F2F3F7] min-h-16 rounded-2xl">
+                <p>Seat</p>
+                <p>Class</p>
+                <p>Fare</p>
+              </div>
             </div>
         </div>
         <div class="flex justify-between w-[60%]">
-          <div class="mb-12">
-                <div class="space-x-5 space-y-5"><button class="btn">A1</button>
-                    <button class="btn ">A2</button>
+          <div class="mb-12 mr-10">
+                <div class="space-x-5 space-y-5"><button class="btn px-12 py-5">A1</button>
+                    <button class="btn px-12 py-5">A2</button>
                     
                 </div class="space-x-5 space-y-5">
                 <div class="space-x-5 space-y-5">
-                    <button class="btn">B1</button>
-                    <button class="btn">B2</button>
+                    <button class="btn px-12 py-5">B1</button>
+                    <button class="btn px-12 py-5">B2</button>
                 </div>
             </div>
 
             <div>
-                <div class="space-x-5 space-y-5"><button class="btn ">A3</button>
-                    <button class="btn">A4</button>
+                <div class="space-x-5 space-y-5"><button class="btn px-12 py-5 ">A3</button>
+                    <button class="btn px-12 py-5">A4</button>
                     
                 </div>
                 <div class="space-x-5 space-y-5">
-                    <button class="btn ">B3</button>
-                    <button class="btn">B4</button>
+                    <button class="btn px-12 py-5 ">B3</button>
+                    <button class="btn px-12 py-5">B4</button>
                 </div>
             </div>
         </div>
       </section>
+       <!-- tikit section end -->
     </main>
   </body>
 </html>
