@@ -4,10 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B9A5 smart ticketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header></header>
-    
-    <main></main>
+    <header>
+       <div class=" flex justify-between mt-12 container mx-auto">
+        <h3 class="text-4xl font-extrabold text-[#030712]">P-Ticket</h3>
+
+        <div class="flex gap-2 bg-[#E8FAE5] py-2 px-4 rounded-xl ">
+            <button class="text-xl font-bold text-[#1DD100]">Bus</button>
+            <img src="./images/bus-icon.png" alt="">
+        </div>
+       </div>
+    </header>
+    <main>
+        <div class="container mx-auto mt-12">
+            <div class="hero min-h-screen rounded-3xl" style="background-image: url(./images/banner.png);">
+                <div class=""></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-6xl text-[#FFFFFF] font-extrabold">End-to-End Travel with</h1>
+                    <h1 class="mb-5 text-6xl text-[#1DD100] font-extrabold">P Paribahan</h1>
+                    <p class="mb-5 text-xl">Yes, you can run unit tests and view the results directly within the app. <br>
+                    The integrated testing features allow for a streamlined .</p>
+                    <button id="#poribohon" class="btn btn-primary text-xl font-bold text-[#030712] bg-[#1DD100] border-none hover:bg-[#1DD100]">Buy Tickets</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <section class="container mx-auto mt-12">
+            <h3 class=" flex justify-center text-4xl font-bold text-[#030712]">Best offers for you</h3>
+            <div class="flex justify-between">
+                <div class=" flex justify-between items-center bg-[#FFBF0F] w-[570px] h-[220px] rounded-3xl mt-12 px-8">
+                    <div>
+                        <h3 class="text-3xl text-[#030712] font-extrabold mb-2">15% OFF</h3>
+                        <p class="text-xl text-[#030712] opacity-80% font-medium mb-2">on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img src="./images/cupon-devider.png" alt="">
+                    <div>
+                        <h3 class="text-3xl text-[#030712] font-extrabold">NEW<span class="text-xl">15</span></h3>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+                <div class=" flex justify-between items-center bg-[#F78C9C] w-[570px] h-[220px] rounded-3xl mt-12 px-8">
+                    <div class="">
+                        <h3 class="text-3xl text-[#030712] font-extrabold mb-2">20% OFF</h3>
+                        <p class="text-xl text-[#030712] opacity-80% font-medium mb-2">on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img src="./images/cupon-devider.png" alt="">
+                    <div>
+                        <h3 class="text-3xl text-[#030712] font-extrabold">Couple 20</h3>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-12">
+                <button class="btn btn-primary text-xl font-bold text-[#1DD100] bg-[#ffff] border-2 border-[#1DD100] hover:bg-[#ffff]">See All Offers</button>
+            </div>
+        </section>
+        <section id="poribohon" class=" bg-[#F7F8F8] container mx-auto mt-24 rounded-tl-3xl    rounded-tr-3xl">
+            <h3 class=" flex justify-center text-4xl font-bold text-[#030712] pt-12">P.H Paribahan</h3>
+            <p class=" text-center mt-12">Yes, you can run unit tests and view the results directly within the app. The integrated <br>
+            testing features allow for a streamlined .</p>
+
+          <div class="flex justify-between  bg-[#FFFFFF] mx-32 my-12 rounded-2xl ">
+                    
+            <div class="flex relative justify-between w-[70%] pt-12 px-12 ">
+                <div class="flex">
+                    <div><img src="./images/bus-logo.png" alt=""></div>
+                    <div>
+                        <h4 class="text-3xl font-bold">Pro Hero Paribahan</h4>
+                        <p>Coach -009 | Web</p>  
+                    </div> 
+                    
+                </div>
+
+                
+                <div>
+                    <div class="flex gap-2 bg-[#E8FAE5] py-2 px-4 rounded-xl ">
+                        <img src="./images/seat-green.png" alt="">
+                        <button class="text-xl font-bold text-[#1DD100]">40 Seats left</button>
+                    </div>
+                </div>
+            </div>
+            
+            <img src="./images/info-devider.png" alt="">
+
+            <div class="flex mx-auto justify-center items-center">
+                <div>
+                    <img src="./images/fare.png" alt="">
+                <h3 class="text-xl font-extrabold">550 Taka</h3>
+                <h5 class="font-medium">Per Seat</h5>
+                </div>
+            </div>
+
+          </div>
+
+         <div class=" absolute w-[650px] bg-[#F7F8F8] top-[250vh] left-[50vh]">
+            <div class="flex justify-between rounded-md">
+                <div class="p-5">
+                    <p class="mb-4">Route</p>
+                    <p class="mb-4">Departure Time</p>
+                </div>
+            
+                <div class="p-5">
+                    <p class="mb-4">Dhaka-Sylhet</p>
+                    <p class="mb-4">9.00 Pm</p>
+                </div>
+                
+            </div>
+            <div class="flex justify-between py-5 px-5">
+                <button class="btn">Boarding Point-Laxmiput </button>
+                <button class="btn">Dropping Point - Bogura</button>
+                <button class="btn">Est- Time - 11 Hour</button>
+            </div>
+         </div>
+          
+        </section>
+    </main>
 </body>
 </html>
